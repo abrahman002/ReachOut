@@ -1,8 +1,8 @@
 import React from 'react';
-import { AiOutlinePlus } from "react-icons/ai";
 import './leftnev.css'
 import { Link } from 'react-router-dom';
 import Dashboard from '../Dashboard/Dashboard';
+import Modal from './Modal/Modal';
 
 
 const LeftNav = () => {
@@ -19,7 +19,9 @@ const LeftNav = () => {
                     <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 h-full bg-white text-base-content ">
 
-                        <li ><Link className=' btn-success rounded-full w-52 text-white normal-case'>Create New Job <AiOutlinePlus /></Link></li>
+                        <li>
+                            <Modal></Modal>
+                        </li>
                         <li className=' btn-ghost rounded-full w-52 mt-2 normal-case '> <Link className='flex gap-2 items-center'>
                             <div className='text-xl'>
                                 <img src="https://i.ibb.co/CW0FyYk/Group-2.png" alt="" />
@@ -55,7 +57,7 @@ const LeftNav = () => {
                                 <img src="https://i.ibb.co/bJBN8GL/Group-6.png" alt="" />
                             </div>
                             Job description</Link></li>
-                        <div className='upgrade  lg:mt-14 lg:p-5 text-white w-60'>
+                        <div className='upgrade  lg:mt-5 lg:p-5 text-white w-60'>
                             <h1 className='text-xl'>Upgrade your account</h1>
                             <p className='textsm mt-2'>Increase your usage and get early access to new features</p>
                             <button className=' btn-success w-36 rounded-full mt-3 text-center text-white normal-case p-2 '>Upgrade</button>

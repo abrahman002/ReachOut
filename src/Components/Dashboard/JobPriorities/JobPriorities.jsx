@@ -11,7 +11,7 @@ const JobPriorities = () => {
         <div className=''>
             <h1 className='text-md mt-5 mb-5 ml-3'>Job Priorities</h1>
 
-            <div className='lg:grid grid-cols-4 gap-2 w-[100%] items-center'>
+            <div className='lg:grid grid-cols-4 gap-2 w-[95%] items-center'>
                 <High></High>
                 <Medium></Medium>
                 <Low></Low>
