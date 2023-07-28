@@ -2,7 +2,7 @@ import React from 'react';
 
 const JobGroup = () => {
     return (
-        <div className='lg:grid grid-cols-3 lg:mt-10 lg:ml-5 ml-20 '>
+        <div className='lg:grid grid-cols-3  lg:ml-5 ml-10 '>
             <div className='w-60 rounded-md p-5 bg-white mt-5 '>
                 <div className='flex gap-5 items-center'>
                     <div>

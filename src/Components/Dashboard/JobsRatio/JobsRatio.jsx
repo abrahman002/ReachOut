@@ -11,7 +11,7 @@ const COLORS = ['#EFF4FA', '#0088FE', '#FFBB28'];
 const JobsRatio = () => {
     return (
         <div>
-            <h1 className='text-md mt-5 mb-5 ml-3'>Jobs Ratio</h1>
+            <h1 className='text-md mt-5 mb-5 '>Jobs Ratio</h1>
 
             <div className='flex lg:flex-row flex-col items-center bg-white lg:h-60 w-[80%] lg:w-full  p-2  rounded-lg lg:ml-0 ml-8'>
 
