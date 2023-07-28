@@ -1,0 +1,6 @@
+.left-icon {
+    border-radius: 4px;
+    border: 1px solid var(--greys-blue-grey-300, #CED5DA);
+    padding: 2px;
+    background: #FFF;
+}
